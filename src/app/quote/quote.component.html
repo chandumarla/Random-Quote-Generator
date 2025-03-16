@@ -1,0 +1,14 @@
+<!-- <div class="quote-container">                              
+    <p class="quote-text">"{{currentQuote}}"</p>
+    <button (click)="getRandomQuote()">Generate Quote</button>
+  </div> -->      <!-- this one was old one, updated with API call is listed below  -->  
+
+  <div class="quote-container">
+    <p class="quote-text">"{{ quote }}"</p>
+    <p class="quote-author">- {{ author }}</p>
+  
+    <button (click)="fetchQuote()">Get New Quote</button>
+  </div>
+  
+
+  
